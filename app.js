@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Rota de Health Check para validação do monitoramento
 app.get('/api/v1/health', (req, res) => {
-  res.status(200).json({ status: 'ok' });
+  res.status(200).json({ status: 'Fase1 Devops - Entregue' });
 });
 
 module.exports = app;
